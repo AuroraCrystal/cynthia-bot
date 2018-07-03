@@ -9,7 +9,7 @@ const token = '463017178472513536'
 
 // Gets called when our bot is successfully logged in and connected
 bot.on('ready', () => {
-    console.log('Hello World!');
+    console.log('Hello World 1234!');
 });
 
 // Event to listen to messages sent to the server where the bot is located
