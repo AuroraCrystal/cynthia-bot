@@ -51,7 +51,7 @@ client.on("message", async message => {
   const command = args.shift().toLowerCase();
 
   if(command === "insult") {
-    
+
   }
 
   if(command === "ping") {
@@ -136,4 +136,5 @@ client.on("message", async message => {
   }
 });
 
-client.login(config.token);
+// client.login(config.token);
+client.login(process.env.BOT_TOKEN);
